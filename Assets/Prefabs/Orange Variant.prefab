@@ -37,6 +37,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.3
+--- !u!114 &1109183889609730519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2614446013959657868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deaa461f88ecb44128aec17da12beeef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slicedFruit: {fileID: 2829227789048525774, guid: 6d8207df17ef44a1a93fb3710aa0def5,
+    type: 3}
 --- !u!1001 &2614446013959757612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46,7 +60,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: a549efacf0f0a4f06b339007e533541d, type: 3}
       propertyPath: m_Name
-      value: Orange
+      value: Orange Variant
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a549efacf0f0a4f06b339007e533541d, type: 3}
       propertyPath: m_LocalPosition.x
