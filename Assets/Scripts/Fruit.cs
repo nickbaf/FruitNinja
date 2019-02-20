@@ -29,8 +29,21 @@ public class Fruit : MonoBehaviour
             r.transform.rotation = Random.rotation;
             r.AddExplosionForce(Random.Range(600, 1200), transform.position, 5f);
         }
+        Destroy(instance, 5f);
         Destroy(gameObject);
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Blade b = collision.GetComponent<Blade>();
+        if (!b)
+        {
+            return;
+        }
+        else
+        {
+            ScliceTheFruit();
+        }
+    }
 
 }
