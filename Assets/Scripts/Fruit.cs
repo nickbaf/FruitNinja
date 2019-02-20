@@ -43,6 +43,7 @@ public class Fruit : MonoBehaviour
         else
         {
             ScliceTheFruit();
+            FindObjectOfType<GameManager>().scoreAdd(3);
         }
     }
 

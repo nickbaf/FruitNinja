@@ -61,7 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Blade.cs" />
+    <Compile Include="Assets\Scripts\bomb.cs" />
     <Compile Include="Assets\Scripts\Fruit.cs" />
+    <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\spawner.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/baf/Unity/FruitNinja/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
