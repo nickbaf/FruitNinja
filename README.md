@@ -1,4 +1,4 @@
-# FruitSamurai
+# FruitNinja
 A Fruit Ninja Clone made using Unity
 
 Uses assets licensed under CC-3.0.
