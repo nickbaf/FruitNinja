@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!50 &3541760487988278720
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872009485232945198}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
+--- !u!58 &7656860768172038341
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872009485232945198}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.0000005066396}
+  serializedVersion: 2
+  m_Radius: 1
+--- !u!114 &200113314825598034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2872009485232945198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deaa461f88ecb44128aec17da12beeef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slicedFruit: {fileID: 7735158431411995053, guid: 6229cd124569840cab951948b7bc3d19,
+    type: 3}
+--- !u!1001 &2872009485232979598
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 100000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_Name
+      value: Watermelon Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_TagString
+      value: interactible
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.965
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d4c9b0ca380ff4dc5819cd24ce177415, type: 3}
+--- !u!1 &2872009485232945198 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: d4c9b0ca380ff4dc5819cd24ce177415,
+    type: 3}
+  m_PrefabInstance: {fileID: 2872009485232979598}
+  m_PrefabAsset: {fileID: 0}

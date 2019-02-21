@@ -12,7 +12,7 @@ public class bomb : MonoBehaviour
 
         if (b)
         {
-            FindObjectOfType<GameManager>().onBombHit();
+            FindObjectOfType<GameManager>().OnBombHit();
         }
         else
         {

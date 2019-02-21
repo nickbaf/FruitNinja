@@ -1,21 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!54 &8712559971588428675
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2829227789048525772}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &3626237596474926208
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29,13 +13,13 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.3, y: 0.5999997, z: 0.6}
   m_Center: {x: -0.15, y: -0.00000014901158, z: -7.249002e-15}
---- !u!54 &1192587110688255729
+--- !u!54 &6491598864269313932
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2829227789048525770}
+  m_GameObject: {fileID: 2829227789048525772}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -58,6 +42,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.3, y: 0.59999985, z: 0.60000014}
   m_Center: {x: -0.15, y: -0.00000014901164, z: 0}
+--- !u!54 &4925929842412581532
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2829227789048525770}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &2829227789048558958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -67,7 +67,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 3474fe90a1a8c43ccb5a3f69d4c00360, type: 3}
       propertyPath: m_Name
-      value: Orange_Cut
+      value: Orange_Cut Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3474fe90a1a8c43ccb5a3f69d4c00360, type: 3}
+      propertyPath: m_TagString
+      value: interactible
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3474fe90a1a8c43ccb5a3f69d4c00360, type: 3}
       propertyPath: m_LocalPosition.x
